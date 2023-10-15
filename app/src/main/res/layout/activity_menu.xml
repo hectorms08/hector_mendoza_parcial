@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/cambio_button"
+        android:layout_width="89dp"
+        android:layout_height="181dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="Cambio de divisas" />
+
+    <Button
+        android:id="@+id/edad_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="Edad en días" />
+
+    <Button
+        android:id="@+id/contactos_button"
+        android:layout_width="134dp"
+        android:layout_height="263dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="Contactos" />
+
+</GridLayout>
